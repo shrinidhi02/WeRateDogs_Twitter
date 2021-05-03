@@ -41,15 +41,15 @@ Columns of the dataframe are as follows:
 
 Libraries:
 
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-%matplotlib inline
-import requests
-import tweepy 
-import json
-import re
+- import pandas as pd
+- import numpy as np
+- import matplotlib.pyplot as plt
+- import seaborn as sns
+- %matplotlib inline
+- import requests
+- import tweepy 
+- import json
+- import re
 
 Python version: 3.6.3
 
