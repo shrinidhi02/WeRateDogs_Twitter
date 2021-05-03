@@ -3,10 +3,13 @@
 WE RATE DOGS: TWITTER RATING ANALYSIS
 
 Introduction:
+
 The following dataset is the tweet archive of Twitter user @dog_rates, also known as WeRateDogs. WeRateDogs is a Twitter account that rates people's dogs with a humorous comment about the dog. These ratings almost always have a denominator of 10. The numerators are almost always greater than 10 like 11/10, 12/10, 13/10, etc. The reason why the numerators are greater than denominator is that "they're good dogs Brent." WeRateDogs has over 4 million followers and has received international media coverage.
+
 WeRateDogs downloaded their Twitter archive and sent it to Udacity via email exclusively to use it as a part of analysis for their student project. This archive contains basic tweet data (tweet ID, timestamp, text, etc.) for all 5000+ of their tweets as they stood on August 1, 2017.
 
 Gathering Data:
+
 Twitter archive file: Provided by udacity. There are 17 columns and 2356 rows in the data set.
 
 Original columns of dataframe are as follows:
@@ -37,6 +40,7 @@ Columns of the dataframe are as follows:
 3. favorite_count: counts of likes by people
 
 Libraries:
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -50,6 +54,7 @@ import re
 Python version: 3.6.3
 
 Conclusion:
+
 1. The ratings are negatively skewed. One of the key reasons is that we have capped the ratings at 15 as there were lot of outliers. Although the ratings are out of 10, there are hardly any posts where the ratings are lesser than 10. Pet owners love their dog so much that they rate their dogs 10 or higher.
 2. Favorite counts and retweet counts are positively correlated.
 Favorite counts and ratings are also positively correlated.
