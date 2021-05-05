@@ -35,9 +35,27 @@ Original columns of dataframe are as follows:
 Twitter download: I had issues with getting access. Hence, used the JSON file provided by Udacity
 
 Columns of the dataframe are as follows:
+
 1. tweet_id: the unique identifier for each tweet
 2. retweet_count: counts of retweets
 3. favorite_count: counts of likes by people
+
+Image Prediction file: This file is downloaded from the servers of udacity. It has 2075 rows and 12 columns.
+  
+ Columns of the dataframe are as follows:
+    
+ 1. tweet_id: the unique identifier for each tweet
+ 2. jpg_url: url of each tweet
+ 3. img_num: No. of images
+ 4. p1: the algorithm's first prediction for the image in the tweet
+ 5. p1_conf: how confident the algorithm is in its first prediction
+ 6. p1_dog: whether or not the first prediction is a breed of dog 
+ 7. p2: the algorithm's second most likely prediction
+ 8. p2_conf: how confident the algorithm is in its second prediction
+ 9. p2_dog: whether or not the seconf prediction is a breed of dog
+ 10. p3: the algorithm's third prediction for the image in the tweet
+ 11. p3_conf: how confident the algorithm is in its third prediction
+ 12. p3_dog: whether or not the thir prediction is a breed of dog
 
 Libraries:
 
