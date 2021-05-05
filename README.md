@@ -84,3 +84,4 @@ Hardly any activity is seen during peak office hours. The ratings, favorite coun
 Most of the tweets happen before 7 am or starting 1 pm. There are no tweets between 7 am and 1 pm. These are peak office hours office hours.The favorite count of the tweet posted at 1 PM is higher than the tweets posted at 6 AM. It might be the time of the day where the boredom sets in and people would be posting and viewing more stuff than usual.
 4. The retweet count of the tweet posted at 6 AM and 1 PM is almost similar.
 5. Average favorite and retweet counts are highest on Tuesdays and Wednesdays.
+6. Golden retriver, Labrador retriver and Pembroke are top 3 favorite dog breeds.
